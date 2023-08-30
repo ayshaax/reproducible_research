@@ -19,6 +19,10 @@
 
 ## Online data repositories
 
+**Figshare**:
+**Zenodo**:
+**Open Science Framework**:
+
 ## Git and GitHub
 
 ### Code and data
