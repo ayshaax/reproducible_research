@@ -68,6 +68,8 @@
 
 ### Branching and merging
 
+## Conda environments and Docker containers
+
 ## Questions
 
 ## Acknowledgements
