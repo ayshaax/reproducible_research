@@ -44,7 +44,7 @@
 
 ### Terminology
 
-It is important to understand a few terms before we get started with Git/GitHub. Familiarise yourself with these definitions.
+Before we get started with Git and GitHub, it is important to understand a few terms. Please familiarise yourself with the following definitions.
 
 - **Repo**:
 - **Commit**:
