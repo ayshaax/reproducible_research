@@ -20,3 +20,15 @@
 ## Online data repositories
 
 ## Git and GitHub
+
+### Code and data
+
+### Organise the directory
+
+### Upload files
+
+### Add a README file and license
+
+### Recording session info
+
+### Branching and merging
