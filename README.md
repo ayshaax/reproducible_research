@@ -56,7 +56,7 @@ Before we get started with Git and GitHub, it is important to understand the fol
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
 - **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
 
-We will be using GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
+We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
 ### Code and data
 
