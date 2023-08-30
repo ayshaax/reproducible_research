@@ -15,9 +15,19 @@
 - **S**ocial connections:
 - **T**rust:
 
-## Good practices for code and data sharing
+## Best practices for code and data sharing
 
-## Google Colab example
+- Keep it simple
+- Annotate your code
+- Use informative names for variables
+- Use a code block structure
+
+- Define a naming convention
+- Use informative names for files
+- Use lowercase in file names, avoid using spaces or special characters
+- Use a versioning system for the file names
+
+## Google Colab
 
 ## Online data repositories
 
