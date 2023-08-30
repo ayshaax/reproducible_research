@@ -6,6 +6,15 @@
 
 ## FAIR and FAIREST principles
 
+- **F**indable:
+- **A**ccessible:
+- **I**nteroperable:
+- **R**eusable:
+
+- **E**ngagement:
+- **S**ocial connections:
+- **T**rust:
+
 ## Good practices for code and data sharing
 
 ## Online data repositories
