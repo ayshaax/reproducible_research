@@ -15,7 +15,7 @@
 - **S**ocial connections:
 - **T**rust:
 
-## Best practices for code and data sharing
+## Best practices for code and data
 
 - Keep it simple
 - Annotate your code
@@ -25,7 +25,8 @@
 - Define a naming convention
 - Use informative names for files
 - Use lowercase in file names, avoid using spaces or special characters
-- Use a versioning system for the file names
+- Use a versioning system in the file names
+- Use conventional file formats
 
 ## Google Colab
 
