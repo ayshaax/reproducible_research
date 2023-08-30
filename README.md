@@ -42,6 +42,20 @@
 
 ## Git and GitHub
 
+### Terminology
+
+- **Repo**:
+- **Commit**:
+- **Checkout**:
+- **Clone**:
+- **Pull**:
+- **Push**:
+- **Branch**:
+- **Merge**:
+- **Fork**:
+- **Pull request**:
+- **Client**:
+
 ### Code and data
 
 ### Organise the directory
