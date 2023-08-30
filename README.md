@@ -17,6 +17,8 @@
 
 ## Good practices for code and data sharing
 
+## Google Colab example
+
 ## Online data repositories
 
 **Figshare**:
