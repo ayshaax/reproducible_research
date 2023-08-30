@@ -44,6 +44,8 @@
 
 ### Terminology
 
+It is important to understand a few terms before we get started with Git/GitHub. Familiarise yourself with these definitions.
+
 - **Repo**:
 - **Commit**:
 - **Checkout**:
