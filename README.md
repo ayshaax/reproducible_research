@@ -47,7 +47,9 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 ## The Problem
 
 ```math
-N(t) = \frac{N_0 K \exp{rt}}{K-N_0+N_0 \exp{rt}}
+\begin{equation}
+N(t) = \frac{N_0 K e^{rt}}{K-N_0+N_0 e^{rt}}
+\end{equation}
 ```
 
 ### 1. Download the data from OSF
