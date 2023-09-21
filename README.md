@@ -47,7 +47,7 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 ## The Problem
 
 **The Cauchy-Schwarz Inequality**
-$$ N(t) \eq \frac{N_0 K \exp{rt}}{K-N_0+N_0 \exp{rt}} $$
+$$ \left N(t) \right \eq \left \frac{N_0 K \exp{rt}}{K-N_0+N_0 \exp{rt}} \right $$
 
 ### 1. Download the data from OSF
 
