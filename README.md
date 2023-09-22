@@ -48,7 +48,7 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 
 ## The Problem
 
-![alt text](https://raw.githubusercontent.com/josegabrielnb/reproducible_research/main/logistic_model.png)
+![Logistic model]([https://raw.githubusercontent.com/josegabrielnb/reproducible_research/main/logistic_model.png](https://github.com/josegabrielnb/reproducible_research/blob/main/logistic_model.png))
 
 ```math
 \begin{equation}
