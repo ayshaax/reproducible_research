@@ -1,6 +1,8 @@
-# Reproducible research, Open code and Open data (ROO)
+# Reproducible research: version control and R
 
 ## Why reproducible research?
+
+Reproducibility is at the core of science. 
 
 ### Reproducible papers with live code
 
@@ -48,9 +50,125 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 
 ```math
 \begin{equation}
-N(t) = \frac{N_0 K e^{rt}}{K-N_0+N_0 e^{rt}}
+N(t) = \frac{K N_0 e^{rt}}{K-N_0+N_0 e^{rt}}
 \end{equation}
 ```
+
+#### Observation #1. When K is much greater than N<sub>0</sub> and *t* is small, the population grows exponentially
+
+If we assume that $` K \gg N_0 `$ and $`t`$ is small, we can approximate the behaviour of the solution at the initial time points.
+
+First, in the denominator, $`K`$ will dominate since $`N_0`$ and $`e^{rt}`$ will be small by comparison. So we can write $`K \thicksim K - N_0+N_0 e^{rt}`$.
+
+```math
+\begin{equation}
+N(t) = \frac{K N_0 e^{rt}}{K-\cancel{N_0+N_0 e^{rt}}}
+\end{equation}
+```
+
+The simplified equation looks like this:
+
+```math
+\begin{equation}
+N(t) = \frac{K N_0 e^{rt}}{K}
+\end{equation}
+```
+
+After which, we can cancel $`K`$ in the numerator and denominator.
+
+```math
+\begin{equation}
+N(t) = \frac{ \cancel{K} N_0 e^{rt}}{\cancel{K}}
+\end{equation}
+```
+
+Therefore, when K is much larger than N_0 and t is small, the population will grow exponentially.
+
+```math
+\begin{equation}
+N(t) = N_0 e^{rt}
+\end{equation}
+```
+
+#### Observation #2. In the limit $`t \to \infty`$, $`N(t) \to K`$
+
+When t tends to infinity, the size of the population is equal to a constant number, the carrying capacity.
+
+To show this, we take the limit of N(t) as t -> inf
+
+```math
+\begin{equation}
+\lim\limits_{t \to \infty} N(t) = \lim\limits_{t \to \infty} \frac{K N_0 e^{rt}}{K-N_0+N_0 e^{rt}} = ind(\frac{\infty}{\infty})
+\end{equation}
+```
+
+Using L'Hopital's rule, we take the derivate of the numerator and denominator with respect to $`t`$.
+
+```math
+\begin{equation}
+\lim\limits_{t \to \infty} \frac{f'(t)}{g'(t)} = \lim\limits_{t \to \infty} \frac{K N_0 r e^{rt}}{N_0 r e^{rt}}
+\end{equation}
+```
+
+We can now cancel the terms in the numerator and denominator,
+
+```math
+\begin{equation}
+\lim\limits_{t \to \infty} \frac{K \cancel{N_0 r e^{rt}}}{\cancel{N_0 r e^{rt}}} = K
+\end{equation}
+```
+
+Therefore, as $`t`$ tends to infinity, the size of the population will be equal to K.
+
+```math
+\begin{equation}
+\lim\limits_{t \to \infty} N(t) = K
+\end{equation}
+```
+
+#### Implications for the data analysis
+
+We can now use these observations to estimate the values of $`N_0`$, $`r`$ and $`K`$ from from experimental data, using a linear approximation.
+
+First, remember that the equation of a line is given by:
+
+```math
+\begin{equation}
+y = b + mx
+\end{equation}
+```
+
+To estimate $`N_0`$ and $`r`$, we can restrict ourselves to a region that shows exponential growth (remember $` K \gg N_0 `$ and $`t`$ is small).
+
+```math
+\begin{equation}
+N(t) = N_0 e^{rt}
+\end{equation}
+```
+
+```math
+\begin{equation}
+ln(N) = ln(N_0) + rt \cancel{ln(e)}
+\end{equation}
+```
+
+```math
+\begin{equation}
+ln(N) = ln(N_0) + rt
+\end{equation}
+```
+
+
+
+Conversely, when $`t`$ is sufficiently large, the population size will remain constant and we can use the following approximation:
+
+```math
+\begin{equation}
+N(t) = K + 0 \cdot t
+\end{equation}
+```
+
+
 
 ### 1. Download the data from OSF
 
