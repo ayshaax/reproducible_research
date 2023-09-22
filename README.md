@@ -48,6 +48,8 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 
 ## The Problem
 
+![Image title.](./logistic_model.pdf){width = 65%}
+
 ```math
 \begin{equation}
 N(t) = \frac{K N_0 e^{rt}}{K-N_0+N_0 e^{rt}}
