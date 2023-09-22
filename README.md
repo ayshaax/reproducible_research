@@ -30,31 +30,63 @@ Reproducibility is at the core of science.
 - Use a versioning system in the file names
 - Use conventional file formats
 
-## Google Colab
-
-## Online data repositories
-
-**Figshare**:
-
-**Zenodo**:
-
-**Open Science Framework**:
-
-## Version Control Systems (VCSs)
-
 ## Git and GitHub
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
 ## The Problem
 
-![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/logistic_model.png)
+Imagine you are given a test tube with 900 ul of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 ul of the same media (total volume of 1 ml).
+
+Surely in the right conditions, the bacteria will start multiplying at a fast rate since there are plenty of resources available to them in the test tube. This may continue for a while but as the population increases, resources will become scarce. The growth rate will start to decrease, and after some time, the population size may remain constant after reaching its maximum capacity in that environment.
+
+You are interested in estimating the initial population size of your bacteria, rate of growth and carrying capacity from experimental data. You also want to make sure that your analysis is reproducible and the data is available for your colleagues all over the world, for them to be able to replicate your findings.
+
+How can we go about doing this? 
+
+## The Model
+
+We can describe logistic growth using a differential equation:
+
+```math
+\begin{equation}
+N'(t) = N r (1 - \frac{N}{K})
+\end{equation}
+```
+
+This expression represents the rate of change of the population size as a function of the current population size times the instantaneous growth rate, scaled by a factor that takes into account the size of the population with respect to the carrying capacity.
+
+&nbsp; 
+
+* **Q1.** *What is the rate of change in the size of the population when N << K? and when N = K? how can we interpret this biologically?*
+
+&nbsp; 
+
+We can find the solution to the differential equation which relates the population size at time t to the initial size of the population (), the growth rate () and the carrying capacity ().
 
 ```math
 \begin{equation}
 N(t) = \frac{K N_0 e^{rt}}{K-N_0+N_0 e^{rt}}
 \end{equation}
 ```
+
+We can plot the solution to get a more intuitive idea of its behaviour (Figure 1). 
+
+&nbsp; 
+
+![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/logistic_growth.png)
+
+**Figure 1. Graphical representation of the logistic model.**
+
+(Left panel) At the beginning, the population seems to grows exponentially, but then slows down and reaches a constant size (equilibrium).
+
+(Right panel) If we make a semilog-plot (x-axis linear, y-axis log-transformed), we observe an increasing linear relationship at the early time points (red rectangle), while at later time points, the population size remains constant.
+
+&nbsp; 
+
+* **Q2.** *Looking at the figure, what is the carrying capacity (K) in this example? And the initial population size?*
+
+&nbsp; 
 
 #### Observation #1. When K is much greater than N<sub>0</sub> and *t* is small, the population grows exponentially
 
@@ -76,7 +108,7 @@ N(t) = \frac{K N_0 e^{rt}}{K}
 \end{equation}
 ```
 
-After which, we can cancel $`K`$ in the numerator and denominator.
+We can cancel $`K`$ in the numerator and denominator.
 
 ```math
 \begin{equation}
@@ -128,7 +160,7 @@ Therefore, as $`t`$ tends to infinity, the size of the population will be equal 
 \end{equation}
 ```
 
-#### Implications for the data analysis
+### Implications for the data analysis
 
 We can now use these observations to estimate the values of $`N_0`$, $`r`$ and $`K`$ from from experimental data, using a linear approximation.
 
@@ -154,15 +186,15 @@ ln(N) = ln(N_0) + rt \cancel{ln(e)}
 \end{equation}
 ```
 
+The linear approximation when $` K \gg N_0 `$ and $`t`$ is small would be:
+
 ```math
 \begin{equation}
 ln(N) = ln(N_0) + rt
 \end{equation}
 ```
 
-
-
-Conversely, when $`t`$ is sufficiently large, the population size will remain constant and we can use the following approximation:
+On the other hand, when $`t`$ is large and the population size remains constant we can use the following approximation :
 
 ```math
 \begin{equation}
@@ -174,9 +206,19 @@ N(t) = K + 0 \cdot t
 
 ### 1. Download the data from OSF
 
-### 2. Fork the GitHub repo with the code
+The results from 3 simulated experiments have been uploaded to the Open Science Framework's website (https://osf.io).
 
-### 3. Add a license and create a README.md file
+OSF is a free online platform that allows researchers to collaborate on projects, deposit their data and make it widely accessible.
+
+Click on the link to OSF shown above and in the search bar, type **"Logistic growth data"**. Find and enter the project for the parctical.
+
+Before continuing to the next section, read and follow the instructions described on the Wiki.
+
+* **Q3.** *When was the data uploaded to OSF?*
+
+There are a few additional free platforms that you can check out for your own work, including **Zenodo** (https://zenodo.org/) and **figshare** (https://figshare.com/).
+
+### 2. Fork the GitHub repo with the code
 
 ### 3. Create a dev branch to work on the code
 
@@ -187,6 +229,8 @@ N(t) = K + 0 \cdot t
 ### 6. Commit the changes to your GitHub repo
 
 ### 7. Merge the final commits to main
+
+### 8. Add a license and edit the README.md file
 
 
 
@@ -203,9 +247,9 @@ N(t) = K + 0 \cdot t
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
 - **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
 
-## Conda environments and Docker containers
-
 ## Questions
+
+## Google Colab (extra)
 
 ## Acknowledgements
 
