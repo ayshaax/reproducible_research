@@ -162,7 +162,7 @@ Therefore, as $`t`$ tends to infinity, the size of the population will be equal 
 
 ### Implications for the data analysis
 
-We can now use these observations to estimate the values of $`N_0`$, $`r`$ and $`K`$ from from experimental data, using a linear approximation.
+We can now use these observations to estimate the values of $`N_0`$, $`r`$ and $`K`$ from a given data set, using a linear approximation.
 
 First, remember that the equation of a line is given by:
 
