@@ -10,7 +10,7 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 
 ## The Problem
 
-Imagine you are given a test tube with 900 ul of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 ul of the same media (total volume of 1 ml).
+Imagine you are given a test tube with 900 $`\mu`$l of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 $`\mu`$l of the same media (total volume of 1 ml).
 
 Surely in the right conditions, the bacteria will start multiplying at a fast rate since there are plenty of resources available to them in the test tube. This may continue for a while but as the population increases, resources will become scarce. The growth rate will start to decrease, and after some time, the population size may remain constant after reaching its maximum capacity in that environment.
 
@@ -36,7 +36,7 @@ This expression represents the rate of change of the population size as a functi
 
 &nbsp; 
 
-We can find the solution to the differential equation which relates the population size at time t to the initial size of the population (), the growth rate () and the carrying capacity ().
+We can find the solution to the differential equation which relates the population size at time t to the initial size of the population ($`N_0`$), the growth rate ($`r`$) and the carrying capacity ($`K`$).
 
 ```math
 \begin{equation}
@@ -48,7 +48,7 @@ We can plot the solution to get a more intuitive idea of its behaviour (Figure 1
 
 &nbsp; 
 
-![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/logistic_growth.png)
+![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/images/logistic_growth.png)
 
 **Figure 1. Graphical representation of the logistic model.**
 
@@ -195,53 +195,69 @@ There are a few additional free platforms that you can check out for your own wo
 ### 2. Fork the GitHub repo with the code
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/original_repo.png" width="700" height="220">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/original_repo.png" width="700" height="220">
 </p>
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_fork.png" width="500" height="400">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_fork.png" width="500" height="400">
 </p>
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/forked_repo.png" width="800" height="500">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/forked_repo.png" width="800" height="500">
 </p>
 
 ### 3. Create a dev branch to work on the repo
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_dev.png" width="250" height="300">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_dev.png" width="250" height="300">
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/dev_branch.png" width="250" height="300">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/dev_branch.png" width="250" height="300">
 
 
 
 ### 4. Add a license and a README.md file
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_license.png" width="250" height="100">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_license.png" width="250" height="100">
 </p>
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/add_license.png" width="390" height="130">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_license.png" width="390" height="120">
 </p>
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/commit_changes.png" width="250" height="150">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commit_changes.png" width="250" height="150">
 </p>
 
 <p align="center">
-<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/readme.png" width="500" height="150">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/readme.png" width="500" height="150">
 </p>
 
 
 ### 5. Add a collaborator to your project
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_collaborator.png" width="750" height="400">
+</p>
 
 ### 6. Work on the data and code (Posit cloud)
 
 ### 7. Commit the changes to your GitHub repo
 
 ### 8. Merge the final commits to main
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/open_pull_request.png" width="500" height="170">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_pull_request.png" width="600" height="400">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/pull_request_success.png" width="520" height="80">
+</p>
 
 
 
