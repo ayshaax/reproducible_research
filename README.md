@@ -228,7 +228,7 @@ First, we will need to find the repository with the code for our analysis.
 
 ### 4. Create a dev branch to work on the repo
 
-It is a good idea to work on a development branch of the forked repository when we start making our own changes.
+It is a good idea to work on a development branch when we start making our own changes.
 
 In this way, we will only update the `main` branch once we are confident with our progress on the development branch.
 
