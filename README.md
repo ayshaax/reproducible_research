@@ -250,7 +250,7 @@ Now that we are working on `dev`, we can make changes being confident that these
 
 ### 5. Add a license and a README.md file
 
-It is important to add a license and README.md files, so that people who find our repository know how to use it.
+It is important to add a license and README.md files, so that people who find our repository will know how to use it.
 
 Let's start with the license.
 
