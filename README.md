@@ -192,7 +192,15 @@ Before continuing to the next section, read and follow the instructions describe
 
 There are a few additional free platforms that you can check out for your own work, including **Zenodo** (https://zenodo.org/) and **figshare** (https://figshare.com/).
 
-### 2. Fork the GitHub repo with the code
+### 2. Sign up for a GitHub account
+
+- Sign up for an account if you do not have one already (https://github.com/join). You can get some extra features for free as a student if you join using your University email address. 
+
+- Choose a memorable user name!
+
+- Log in to your new account.
+
+### 3. Fork the GitHub repo with the code
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/original_repo.png" width="700" height="220">
@@ -206,7 +214,7 @@ There are a few additional free platforms that you can check out for your own wo
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/forked_repo.png" width="800" height="500">
 </p>
 
-### 3. Create a dev branch to work on the repo
+### 4. Create a dev branch to work on the repo
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_dev.png" width="250" height="300">
@@ -216,7 +224,7 @@ There are a few additional free platforms that you can check out for your own wo
 
 
 
-### 4. Add a license and a README.md file
+### 5. Add a license and a README.md file
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_license.png" width="250" height="100">
@@ -235,17 +243,17 @@ There are a few additional free platforms that you can check out for your own wo
 </p>
 
 
-### 5. Add a collaborator to your project
+### 6. Add a collaborator to your project
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_collaborator.png" width="750" height="400">
 </p>
 
-### 6. Work on the data and code (Posit cloud)
+### 7. Work on the data and code (Posit cloud)
 
-### 7. Commit the changes to your GitHub repo
+### 8. Commit the changes to your GitHub repo
 
-### 8. Merge the final commits to main
+### 9. Merge the final commits to main
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/open_pull_request.png" width="500" height="170">
