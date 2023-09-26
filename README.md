@@ -194,9 +194,46 @@ There are a few additional free platforms that you can check out for your own wo
 
 ### 2. Fork the GitHub repo with the code
 
-### 3. Create a dev branch to work on the code
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/original_repo.png" width="700" height="220">
+</p>
 
-### 4. Add a license and edit the README.md file
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_fork.png" width="500" height="400">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/forked_repo.png" width="800" height="500">
+</p>
+
+### 3. Create a dev branch to work on the repo
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_dev.png" width="250" height="300">
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/dev_branch.png" width="250" height="300">
+
+
+
+### 4. Add a license and a README.md file
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/create_license.png" width="250" height="100">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/add_license.png" width="390" height="130">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/commit_changes.png" width="250" height="150">
+</p>
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/readme.png" width="500" height="150">
+</p>
+
 
 ### 5. Add a collaborator to your project
 
