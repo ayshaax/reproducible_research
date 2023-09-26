@@ -220,7 +220,7 @@ First, we will need to find the repository with the code for our analysis.
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_fork.png" width="500" height="400">
 </p>
 
-- Your new copy of the "**logistic_growth**" repository should have been created successfully.
+- Your new copy of the "**logistic_growth**" repository should have been created successfully, congrats!
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/forked_repo.png" width="800" height="500">
@@ -246,13 +246,21 @@ In this way, we will only update the `main` branch once we are confident with ou
 
 Now that we are working on `dev`, we can make changes being confident that these will not affect the `main` branch.
 
-* **Q3.** *Why do you think it would be useful to have separate* `main` *and* `dev` *branches?*
+* **Q4.** *Why do you think it would be useful to have separate* `main` *and* `dev` *branches?*
 
 ### 5. Add a license and a README.md file
+
+It is important to add a license and README.md files, so that people who find our repository know how to use it.
+
+Let's start with the license.
+
+- On the top right corner, click on the button "**Add files**" and select "**Create new file**".
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_license.png" width="250" height="100">
 </p>
+
+
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_license.png" width="390" height="120">
