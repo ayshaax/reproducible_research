@@ -2,33 +2,7 @@
 
 ## Why reproducible research?
 
-Reproducibility is at the core of science. 
-
-### Reproducible papers with live code
-
-## FAIR and FAIREST principles
-
-- **F**indable:
-- **A**ccessible:
-- **I**nteroperable:
-- **R**eusable:
-
-- **E**ngagement:
-- **S**ocial connections:
-- **T**rust:
-
-## Best practices for code and data
-
-- Keep it simple
-- Annotate your code
-- Use informative names for variables
-- Use a code block structure
-
-- Define a naming convention
-- Use informative names for files
-- Use lowercase in file names, avoid using spaces or special characters
-- Use a versioning system in the file names
-- Use conventional file formats
+Reproducibility is at the core of science.
 
 ## Git and GitHub
 
@@ -210,7 +184,7 @@ The results from 3 simulated experiments have been uploaded to the Open Science 
 
 OSF is a free online platform that allows researchers to collaborate on projects, deposit their data and make it widely accessible.
 
-Click on the link to OSF shown above and in the search bar, type **"Logistic growth data"**. Find and enter the project for the parctical.
+Click on the link to OSF shown above and in the search bar, type **"Logistic growth data"**. Find and enter the project for the practical.
 
 Before continuing to the next section, read and follow the instructions described on the Wiki.
 
@@ -222,15 +196,15 @@ There are a few additional free platforms that you can check out for your own wo
 
 ### 3. Create a dev branch to work on the code
 
-### 4. Add a collaborator to your project
+### 4. Add a license and edit the README.md file
 
-### 5. Work on the data and code (Posit cloud)
+### 5. Add a collaborator to your project
 
-### 6. Commit the changes to your GitHub repo
+### 6. Work on the data and code (Posit cloud)
 
-### 7. Merge the final commits to main
+### 7. Commit the changes to your GitHub repo
 
-### 8. Add a license and edit the README.md file
+### 8. Merge the final commits to main
 
 
 
@@ -246,6 +220,30 @@ There are a few additional free platforms that you can check out for your own wo
 - **Merge**: when you are convinced that the main branch can be updated with changes from a development branch, you can merge those changes into the main branch.
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
 - **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
+
+## FAIR and FAIREST principles
+
+- **F**indable:
+- **A**ccessible:
+- **I**nteroperable:
+- **R**eusable:
+
+- **E**ngagement:
+- **S**ocial connections:
+- **T**rust:
+
+## Best practices for code and data
+
+- Keep it simple
+- Annotate your code
+- Use informative names for variables
+- Use a code block structure
+
+- Define a naming convention
+- Use informative names for files
+- Use lowercase in file names, avoid using spaces or special characters
+- Use a versioning system in the file names
+- Use conventional file formats
 
 ## Questions
 
