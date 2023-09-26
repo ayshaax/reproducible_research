@@ -184,9 +184,9 @@ The results from 3 simulated experiments have been uploaded to the Open Science 
 
 OSF is a free online platform that allows researchers to collaborate on projects, deposit their data and make it widely accessible.
 
-Click on the link to OSF shown above and in the search bar, type **"Logistic growth data"**. Find and enter the project for the practical.
+- Click on the link to OSF shown above and in the search bar, type **"Logistic growth data"**. Find and enter the project for the practical.
 
-Before continuing to the next section, read and follow the instructions described on the Wiki.
+- Read and follow the instructions described on the Wiki.
 
 * **Q3.** *When was the data uploaded to OSF?*
 
@@ -194,7 +194,7 @@ There are a few additional free platforms that you can check out for your own wo
 
 ### 2. Sign up for a GitHub account
 
-- Sign up for an account if you do not have one already (https://github.com/join). You can get some extra features for free as a student if you join using your University email address. 
+- Sign up for an account if you do not have one already (https://github.com/join). You can get access to some extra features as a student for free if you join using your University email address. 
 
 - Choose a memorable user name!
 
@@ -202,13 +202,25 @@ There are a few additional free platforms that you can check out for your own wo
 
 ### 3. Fork the GitHub repo with the code
 
+First, we will need to find the repository with the code for our analysis.
+
+- Type "**josegabrielnb/logistic_growth**" in the search bar at the top.
+
+- Click on the link to see the repository, it should contain three R scripts for the data analysis.
+
+- Create a fork (your own copy) of the repository by clicking on the top button "**Fork**".
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/original_repo.png" width="700" height="220">
 </p>
 
+- Check the information displayed in the fork window and click on **Create fork**.
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_fork.png" width="500" height="400">
 </p>
+
+- Your new copy of the "**logistic_growth**" repository should have been created successfully.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/forked_repo.png" width="800" height="500">
@@ -216,13 +228,25 @@ There are a few additional free platforms that you can check out for your own wo
 
 ### 4. Create a dev branch to work on the repo
 
+It is a good idea to work on a development branch of the forked repository when we start making our own changes.
+
+In this way, we will only update the `main` branch once we are confident with our progress on the development branch.
+
+- On the top left side of the repo home page, click on the down arrow next to `main` and type "**dev**" as the name of our development branch.
+
+- Click on "**Create branch**" when prompted.
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_dev.png" width="250" height="300">
+
+- Once you have confirmed, the repository should have changed from `main` to the `dev` branch.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/dev_branch.png" width="250" height="300">
 
+Now that we are working on `dev`, we can make changes being confident that these will not affect the `main` branch.
 
+* **Q3.** *Why do you think it would be useful to have separate* `main` *and* `dev` *branches?*
 
 ### 5. Add a license and a README.md file
 
