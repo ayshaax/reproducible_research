@@ -16,7 +16,7 @@ Surely in the right conditions, the bacteria will start multiplying at a fast ra
 
 You are interested in estimating the initial population size of your bacteria, rate of growth and carrying capacity from experimental data. You also want to make sure that your analysis is reproducible and the data is available for your colleagues all over the world, for them to be able to replicate your findings.
 
-How can we go about doing this? 
+*How can we model population growth in this system and make our analysis reproducible?*
 
 ## The Model
 
