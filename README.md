@@ -291,13 +291,13 @@ Let's start with the license.
 
 ### 7. Work on the data and code
 
-Now that we are done setting up the dev branch of the repo, we can go ahead with the data analysis.
+Now that we are done setting up the `dev` branch of the repo, we can go ahead with the data analysis.
 
 We will be using Posit cloud (https://posit.cloud), which is a cloud-based platform that provides an interface similar to RStudio.
 
 - Sign up if you do not have a Posit cloud account, and then sign in.
   
-- In your dashboard, click on "**New project**" and select "**New project from GitHub repository**". This will set up the project with the files in the repo.
+- In your dashboard, click on "**New project**" and select "**New project from GitHub repository**". When asked, paste the link to the repository, this will set up the project with the files in the repo.
 
 - 
 
