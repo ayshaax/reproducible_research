@@ -260,15 +260,23 @@ Let's start with the license.
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_license.png" width="250" height="100">
 </p>
 
+- In the field for the file name, type "**LICENSE**" in all caps.
 
+- An option will appear to "**Choose a license template**", click on it and select a license.
+
+* **Q5.** *Which licenses would be suitable to enable reproducibility of your project?*
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_license.png" width="390" height="120">
 </p>
 
+- Once you have selected the license, click on "**Commit changes**".
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commit_changes.png" width="250" height="150">
 </p>
+
+- Create a README file following the steps outlined above, but instead name the file "**README.md**". 
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/readme.png" width="500" height="150">
@@ -281,9 +289,19 @@ Let's start with the license.
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_collaborator.png" width="750" height="400">
 </p>
 
-### 7. Work on the data and code (Posit cloud)
+### 7. Work on the data and code
 
-### 8. Commit the changes to your GitHub repo
+Now that we are done setting up the dev branch of the repo, we can go ahead with the data analysis.
+
+We will be using Posit cloud (https://posit.cloud), which is a cloud-based platform that provides an interface similar to RStudio.
+
+- Sign up if you do not have a Posit cloud account, and then sign in.
+  
+- In your dashboard, click on "**New project**" and select "**New project from GitHub repository**". This will set up the project with the files in the repo.
+
+- 
+
+### 8. Commit and push the changes to your GitHub repo
 
 ### 9. Merge the final commits to main
 
