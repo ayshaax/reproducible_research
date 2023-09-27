@@ -327,7 +327,7 @@ Start by plotting the data (`plot_data.R`), then fit the linear models (`fit_lin
 
 ### 8. Commit and push the changes to your GitHub repo
 
-Once you have completed the analysis, we are ready to update the GitHub repository.
+Once you have completed the analysis, you are ready to update the GitHub repository!
 
 - Make a list of the packages required and save them in a file called "package-versions.txt".
 
@@ -337,8 +337,45 @@ sessionInfo()
 sink()
 ```
 
+- We will need to update the email to make the commits into your repository. Open the **Terminal** tab, and type (replace <YOUR_EMAIL> with the email you signed up with on GitHub):
 
+```
+git config --global user.email "<YOUR_EMAIL>"
+```
 
+- Now, go to the **git** panel and select the files that you will be updating/adding to the GitHub repo.
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commits_ready.png" width="500" height="170">
+</p>
+
+- Click on "**Commit**" and follow the instructions (you will be able to add an optional commit message).
+
+- After the commit has been processed you should see the message "Your branch is ahead of origin/dev by 1 commit" in the **git** panel.
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commit_ahead.png" width="500" height="120">
+</p>
+
+The commit has staged the changes in the current Posit cloud project. To make the changes on GitHub we need to *push* the commit. To do this however, authentication is required.
+
+- Go back to GitHub and click on your profile picture (top right of the window). Then click on **Settings**.
+
+- Scroll to the very end of the left pane in the **Settings** window, and click on the tab "**<> Developer settings**".
+
+-  Click on **Personal access tokens** and then on **Tokens (classic)**.
+
+-  Select **Create a personal access token**, and tick all the boxes to get general permissions.
+
+-  Copy the token (also save it somewhere!). You will use this token to authenticate and push your changes onto the GitHub repo.
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/personal_token.png" width="600" height="220">
+</p>
+
+- Go back to the Posit cloud project, and click "**Push**" on the **git** tab.
+
+- Use your GitHub credentials, and **when asked for the password enter your GitHub token**.
 
 ### 9. Merge the final commits to main
 
