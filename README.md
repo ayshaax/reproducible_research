@@ -285,6 +285,12 @@ Let's start with the license.
 
 ### 6. Add a collaborator to your project
 
+Often times, you will want to work on a project with your colleagues.
+
+- To add a collaborator, click on the **Settings** tab of the repository upper panel and then select **Collaborators**.
+
+- You can then select **Add people** to invite collaborators to work on your project.
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_collaborator.png" width="750" height="400">
 </p>
@@ -379,17 +385,33 @@ The commit has staged the changes in the current Posit cloud project. To make th
 
 ### 9. Merge the final commits to main
 
+The `dev` branch of your GitHub repository should have updated after the push, check that all the files have been updated correctly.
+
+- Go to the **Contribute** tab in the home page of your `dev` branch, and then click on **Open pull request**. 
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/open_pull_request.png" width="500" height="170">
 </p>
+
+- As **base** select the `main` branch of your own repository, and check the message says "**Able to merge**". Click on **Create pull request**.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/create_pull_request.png" width="600" height="400">
 </p>
 
+- After a successful merge, you should see the following message:
+
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/pull_request_success.png" width="520" height="80">
 </p>
+
+You can now delete the `dev` branch if you do not wish to continue working on it later.
+
+Congratulations! Your repository with a reproducible analysis of logistic growth data is complete. You could add some final comments to the README.md file for any future users who come across your repo.
+
+- To make your repo public, go to the **Settings** tab and scroll down to the **Danger Zone**.
+
+- Click on **Change visibility** and then **Change to public**. Now your repository will be accessible online.
 
 
 
