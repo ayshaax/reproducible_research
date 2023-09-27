@@ -425,6 +425,8 @@ You can now delete the `dev` branch if you do not wish to continue working on it
    
 9) Q5
 
+## Additional materials
+
 ### Git and Github Glossary
 
 - **Repository**: a repository (or repo) is essentially a folder that contains all your files and their revision history.
@@ -438,7 +440,7 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
 - **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
 
-## FAIR principles
+### FAIR principles
 
 - **F**indable:
 - **A**ccessible:
@@ -449,7 +451,7 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - **S**ocial connections:
 - **T**rust:
 
-## Best practices for code and data
+### Best practices for code and data
 
 - Keep it simple
 - Annotate your code
@@ -462,12 +464,10 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - Use a versioning system in the file names
 - Use conventional file formats
 
-## Google Colab (extra)
+### Google Colab
+
+### Readings
 
 ## Acknowledgements
 
 I would like to thank Alex Zarebski, Roberto Salguero-Gomez, Lydia France, Juan Antonio Balbuena and Juan Ignacio Lucas for their guidance and feedback while preparing this lesson.
-
-## Additional materials
-
-
