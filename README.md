@@ -413,7 +413,17 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 
 - Click on **Change visibility** and then **Change to public**. Now your repository will be accessible online.
 
+## Questions
 
+1) Q1
+   
+3) Q2
+   
+5) Q3
+   
+7) Q4
+   
+9) Q5
 
 ### Git and Github Glossary
 
@@ -428,7 +438,7 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
 - **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
 
-## FAIR and FAIREST principles
+## FAIR principles
 
 - **F**indable:
 - **A**ccessible:
@@ -452,12 +462,12 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - Use a versioning system in the file names
 - Use conventional file formats
 
-## Questions
-
 ## Google Colab (extra)
 
 ## Acknowledgements
 
+I would like to thank Alex Zarebski, Roberto Salguero-Gomez, Lydia France, Juan Antonio Balbuena and Juan Ignacio Lucas for their guidance and feedback while preparing this lesson.
+
 ## Additional materials
 
-## References
+
