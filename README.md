@@ -407,7 +407,7 @@ The `dev` branch of your GitHub repository should have updated after the push, c
 
 You can now delete the `dev` branch if you do not wish to continue working on it later.
 
-Congratulations! Your repository with a reproducible analysis of logistic growth data is complete. You could add some final comments to the README.md file for any future users who come across your repo.
+**Congratulations!** Your repository with a reproducible analysis of logistic growth data is complete. You can add some final comments to the README.md file for any future users who come across your repo.
 
 - To make your repo public, go to the **Settings** tab and scroll down to the **Danger Zone**.
 
