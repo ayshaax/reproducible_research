@@ -293,13 +293,17 @@ Let's start with the license.
 
 Now that we are done setting up the `dev` branch of the repo, we can go ahead with the data analysis.
 
-We will be using Posit cloud (https://posit.cloud), which is a cloud-based platform that provides an interface similar to RStudio.
+We will be using **Posit cloud** (https://posit.cloud), which is a cloud-based platform that provides an interface similar to RStudio.
 
 - Sign up if you do not have a Posit cloud account, and then sign in.
   
 - In your dashboard, click on "**New project**" and select "**New project from GitHub repository**". When asked, paste the link to the repository, this will set up the project with the files in the repo.
 
-- 
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/new_project.png" width="300" height="200">
+</p>
+
+
 
 ### 8. Commit and push the changes to your GitHub repo
 
