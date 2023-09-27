@@ -303,6 +303,12 @@ We will be using **Posit cloud** (https://posit.cloud), which is a cloud-based p
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/new_project.png" width="250" height="180">
 </p>
 
+- On the git tab (upper right panel), make sure you change the branch from main to dev.
+
+<p align="center">
+<img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/git_panel_dev.png" width="500" height="150">
+</p>
+
 - In the files panel (to the lower right), click on the "**Upload**" and upload the *.csv file you downloaded from OSF.
 
 <p align="center">
@@ -311,15 +317,28 @@ We will be using **Posit cloud** (https://posit.cloud), which is a cloud-based p
 
 **Now that everything has been set up in your Posit cloud project, you can start working on the R scripts provided.**
 
-- The scripts have blank spaces marked with triple question marks **???**.
+- The scripts have blank spaces marked with triple question marks **???**
 
 - Work on the code to fill in the blanks as you analyse the data.
 
-- Make informative annotations on to the code to sign post all the steps and any assumptions.
+- Include annotations in the code to signpost each step.
 
-- Start by plotting the data (`plot_data.R`), then fit the linear models (`fit_linear_model.R`) and finally assess the fit of the model to your data graphically (`plot_data_and_model.R`).
+Start by plotting the data (`plot_data.R`), then fit the linear models (`fit_linear_model.R`) and finally assess the fit of the model to your data graphically (`plot_data_and_model.R`).
 
 ### 8. Commit and push the changes to your GitHub repo
+
+Once you have completed the analysis, we are ready to update the GitHub repository.
+
+- Make a list of the packages required and save them in a file called "package-versions.txt".
+
+```
+sink(file = "package-versions.txt")
+sessionInfo()
+sink()
+```
+
+
+
 
 ### 9. Merge the final commits to main
 
