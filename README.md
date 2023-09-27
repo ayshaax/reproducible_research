@@ -317,7 +317,7 @@ We will be using **Posit cloud** (https://posit.cloud), which is a cloud-based p
 
 - Make informative annotations on to the code to sign post all the steps and any assumptions.
 
-- Start by plotting the data (`plot_data.R`), then fit the linear models (`fit_linear_model.R`) and finally assess the fit of the model to your data grphically (`plot_data_and_model.R`).
+- Start by plotting the data (`plot_data.R`), then fit the linear models (`fit_linear_model.R`) and finally assess the fit of the model to your data graphically (`plot_data_and_model.R`).
 
 ### 8. Commit and push the changes to your GitHub repo
 
