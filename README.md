@@ -8,6 +8,12 @@ Reproducibility is at the core of science.
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
+[AlphaFold](https://github.com/google-deepmind/alphafold)
+
+[DIAMOND](https://github.com/bbuchfink/diamond)
+
+[Agents.jl](https://github.com/JuliaDynamics/Agents.jl)
+
 ## The Problem
 
 Imagine you are given a test tube with 900 $`\mu`$l of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 $`\mu`$l of the same media (total volume of 1 ml).
