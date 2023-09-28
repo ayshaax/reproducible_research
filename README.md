@@ -459,7 +459,21 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 
 ### Google Colab
 
-### Readings
+### Readings / Online materials
+
+Braga PHP, et al. (2023). [Not just for programmers: how GitHub can accelerate collaborative and reproducible research in ecology and evolution](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108). *Methods in Ecology and Evolution 14*(6): 1364-1380.
+
+Alston JM, & Rick JA. (2021).[ A beginner's guide to conducting reproducible research](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.1002/bes2.1801). *Bulletin of the Ecological Society of America 102(2)*: e01801.
+
+Cooper N, & Hsing PY. (Eds.). (2017). [A guide to reproducible code in ecology and evolution](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf). British Ecological Society. London.
+
+Wilkinson MD, et al. (2016). [The FAIR guiding principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). *Scientific Data 3*: 160018.
+
+Sandve GK, et al. (2013). [Ten simple rules for reproducible computational research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285). *PLoS Computational Biology 9(10)*: 1003285.
+
+[GitHub Skills](https://skills.github.com/)
+
+[Software Carpentry](https://software-carpentry.org/lessons/)
 
 ## Acknowledgements
 
