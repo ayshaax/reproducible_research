@@ -421,15 +421,15 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 
 ## Assignment questions
 
-1) Annotate the README.md file in your repo with more detailed information about the analysis. Add a section on the results and include the estimates for N_0, r and K (also mention which experiment*.csv file you used).
+1) Annotate the **README.md** file in your repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (also mention which experiment*.csv file you used).
    
-2) Use your estimates of N_0 and r to calculate the population size at t = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
+2) Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth?
 
-3) Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the README.md file so it can be viewed in the repo homepage.
+3) Add an R script to your repository that makes a graph comparing the exponential and logistic growth curves (using the same parameter estimates you found). Upload this graph to your repo and include it in the **README.md** file so it can be viewed in the repo homepage.
    
 4) Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible:
 
-   - Fork the repository brownian_motion, and execute the code to produce a figure of a random walk. Save the figure of the path.
+   - Fork the repository `brownian_motion`, and execute the code to produce a figure of a random walk. Save the figure of the path.
    - Execute the code again and make a figure comparing the paths 1 and 2. What do you observe?
    - Investigate the term *random seeds*. What is a random seed and how does it work?
    - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked repo.
