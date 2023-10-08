@@ -453,7 +453,7 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 
 ### FAIR principles
 
-The FAIR principles are a set of guidelines proposed at the *Jointly Designing a Data Fairport* workshop in Leiden (2014), which make an emphasis on enhacing the ability of computers and humans to discover, access and analyse digital scholarly objects. 
+The FAIR principles are a set of guidelines proposed at the *Jointly Designing a Data Fairport* workshop held in Leiden in 2014, which make an emphasis on enhacing the ability of computers and humans to discover, access and analyse digital scholarly objects. 
 
 FAIR is an acronym for **F**indable, **A**ccessible, **I**nteroperable and **R**eusable:
 
