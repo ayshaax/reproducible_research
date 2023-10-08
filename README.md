@@ -9,9 +9,9 @@ In this practical, you will learn to carry out a reproducible data analysis of a
 
 ## Git and GitHub
 
-Git is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system that works as a "time machine" keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on the code indepdently, reducing the chances that the entire project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations!
+**Git** is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on different tasks indepdently, reducing the risk that the whole project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
 
-
+**GitHub** is a cloud service based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to other users. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork), and they can be accessed online by your teammates who can collaborate on your projects and once you're done, you can make them available to the wider scientific community.   
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
