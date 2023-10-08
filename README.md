@@ -2,12 +2,16 @@
 
 ## Why reproducible research?
 
-Reproducibility is essential for scientific progress: it allows us to grasp the reliability of our analyses, and makes our work accessible and transparent to our peers to be assessed independently. As a minimal requirement, we should be able to reproduce our own findings from the data we have collected (even if it's from a project we did years ago!). In a similar way, our peers should be able to reproduce our findings if they are given the data and enough information to follow the steps we took to make our inferences. As a scientist, your results will weigh much more and have broader impact if they are made accessible, transparent and reproducible.
+Reproducibility is essential for scientific progress: it allows us to grasp the reliability of our analyses, and makes our work accessible and transparent to our peers to be assessed independently. As a minimal requirement, we should be able to reproduce our own findings from the data we have collected (even if it's from a project we did years ago!). In a similar way, our peers should be able to reproduce our findings when given the data and enough information to follow the steps we took to make our inferences. As a scientist, your results will be much stronger and have broader impact if they are made accessible, transparent and reproducible.
 
 In this practical, you will learn to carry out a reproducible data analysis of a biological problem using git and GitHub.
 
 
 ## Git and GitHub
+
+Git is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system that works as a "time machine" keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on the code indepdently, reducing the chances that the entire project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations!
+
+
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
