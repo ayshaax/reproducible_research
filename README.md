@@ -2,7 +2,10 @@
 
 ## Why reproducible research?
 
-Reproducibility is at the core of science.
+Reproducibility is essential for scientific progress: it allows us to grasp the reliability of our analyses, and makes our work accessible and transparent to our peers to be assessed independently. As a minimal requirement, we should be able to reproduce our own findings from the data we have collected (even if it's from a project we did years ago!). In a similar way, our peers should be able to reproduce our findings if they are given the data and enough information to follow the steps we took to make our inferences. As a scientist, your results will weigh much more and have broader impact if they are made accessible, transparent and reproducible.
+
+In this practical, you will learn to carry out a reproducible data analysis of a biological problem using git and GitHub.
+
 
 ## Git and GitHub
 
@@ -451,8 +454,6 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - Use lowercase in file names, avoid using spaces or special characters
 - Use conventional file formats
 
-### Google Colab
-
 ### Readings / Online materials
 
 Braga PHP, et al. (2023). [Not just for programmers: how GitHub can accelerate collaborative and reproducible research in ecology and evolution](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.14108). *Methods in Ecology and Evolution 14*(6): 1364-1380.
@@ -468,6 +469,8 @@ Sandve GK, et al. (2013). [Ten simple rules for reproducible computational resea
 [GitHub Skills](https://skills.github.com/)
 
 [Software Carpentry](https://software-carpentry.org/lessons/)
+
+
 
 ## Acknowledgements
 
