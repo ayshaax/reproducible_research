@@ -9,11 +9,10 @@ In this practical, you will learn to carry out a reproducible data analysis of a
 
 ## Git and GitHub
 
-**Git** is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on different tasks indepdently, reducing the risk that the whole project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
+**Git** is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system to organise your projects and that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on different tasks indepdently, reducing the risk that the whole project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
 
-**GitHub** is a cloud platform based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to other users. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork), they can be accessed online by your teammates who can collaborate on your projects and once you're done, you can make them available to the wider scientific community.   
+**GitHub** is a cloud platform based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to other users. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork), they can be accessed online by your teammates who can collaborate on your projects and you can make them available to the wider scientific community once you're ready.   
 
-We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI).
 
 [AlphaFold](https://github.com/google-deepmind/alphafold)
 
@@ -21,13 +20,15 @@ We will be using the GitHub website, since it simplifies the git workflow and pr
 
 [Agents.jl](https://github.com/JuliaDynamics/Agents.jl)
 
+We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI). At a more advanced stage, you may want to learn how to use the commandline on your computer to interact with git and GitHub.
+
 ## The Problem
 
-Imagine you are given a test tube with 900 $`\mu`$l of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 $`\mu`$l of the same media (total volume of 1 ml).
+You are given a test tube with 900 $`\mu`$l of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 $`\mu`$l of the same media (total volume of 1 ml).
 
-Surely in the right conditions, the bacteria will start multiplying at a fast rate since there are plenty of resources available to them in the test tube. This may continue for a while but as the population increases, resources will become scarce. The growth rate will start to decrease, and after some time, the population size may remain constant after reaching its maximum capacity in that environment.
+The bacteria will start multiplying at a fast rate since there are plenty of resources available in the test tube. This may continue for a while until resources start to become scarce. The growth rate will start to decrease, and after some time, the population size remain constant after reaching its maximum capacity in the test tube.
 
-You are interested in estimating the initial population size of your bacteria, rate of growth and carrying capacity from experimental data. You also want to make sure that your analysis is reproducible and the data is available for your colleagues all over the world, for them to be able to replicate your findings.
+You are interested in estimating the initial population size of your bacteria, rate of growth and carrying capacity from experimental data. You also want to make sure that your analysis is reproducible and the data is available for your colleagues, for them to be able to replicate your findings.
 
 *How can we model population growth in this system and make our analysis reproducible?*
 
