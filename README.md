@@ -15,11 +15,14 @@ In this practical, you will learn to carry out a reproducible data analysis of a
 
 Many state-of-the-art, open-source software projects used in modern biological research are freely available on GitHub, for example:
 
-[AlphaFold](https://github.com/google-deepmind/alphafold) *De novo* prediction of potein tertiary and quaternary structures using artificial intelligence.
+[AlphaFold](https://github.com/google-deepmind/alphafold)
+*De novo* prediction of potein tertiary and quaternary structures using artificial intelligence.
 
-[DIAMOND](https://github.com/bbuchfink/diamond) Efficient comparison of protein and translated nucleotide sequences.
+[DIAMOND](https://github.com/bbuchfink/diamond)
+Efficient comparison of protein and translated nucleotide sequences.
 
-[Agents.jl](https://github.com/JuliaDynamics/Agents.jl) Framework for developing Agent-based models in the Julia programming language.
+[Agents.jl](https://github.com/JuliaDynamics/Agents.jl)
+Framework for developing Agent-based models in the Julia programming language.
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI). At a more advanced stage, you may want to learn how to use the commandline on your computer to interact with git and GitHub.
 
@@ -433,22 +436,28 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 ### Git and Github Glossary
 
 - **Repository**: a repository (or repo) is essentially a folder that contains all your files and their revision history.
+- **Add**: process of selecting a file for inclusion in the version history. 
 - **Commit**: commits refer to changes in the repository files that have been recorded as part of its history. You can think of it as a snapshot of the repository at a given time.
 - **Checkout**: checkouts allow you to switch between different versions of the repo. You can access a previous version of a file, commit or jump to a different branch.
 - **Clone**: by cloning a repository with git you create an entire copy of that repository on your machine, including all files, commits and branches.
 - **Pull**: you can pull the contents of the remote repository to update your cloned repo to the most recent version.
 - **Push**: pushing allows you to update the remote repo with your local commits. However, it will only push commits from the current branch you have checked out.
-- **Branch**: branching is a useful option when collaborating on code with others. It lets you work on an isolated copy of the repo, which you can then safely experiment with: any changes will not affect the main branch of the project.
-- **Merge**: when you are convinced that the main branch can be updated with changes from a development branch, you can merge those changes into the main branch.
+- **Branch**: branching is a useful option when collaborating on code with others. It lets you work on an isolated copy of the repo, which you can then safely experiment with: any changes will not affect the `main` branch of the project.
+- **Merge**: when you are convinced that the `main` branch can be updated with changes from a development branch, you can merge those changes into the `main` branch.
 - **Fork**: a fork creates a copy of a repository on your GitHub account, which is independent of the original repo. 
-- **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the main branch or repository.
+- **Pull request**: you can send pull requests of any commits to the owner of a repo or to collaborators. If they approve the proposed changes, the commits can be merged into the `main` branch or repository.
+- **Conflict**: problem when edits from different sources cannot be combined automatically.
 
 ### FAIR principles
 
-- **F**indable:
-- **A**ccessible:
-- **I**nteroperable:
-- **R**eusable:
+The FAIR principles are a set of guidelines proposed at the *Jointly Designing a Data Fairport* workshop in Leiden (2014), which make an emphasis on enhacing the ability of computers and humans to discover, access and analyse digital scholarly objects. 
+
+FAIR is an acronym for **F**indable, **A**ccessible, **I**nteroperable and **R**eusable:
+
+- **F**indable: the object has a unique and persistent identifier (DOI/URL), it is described with rich metadata and it is indexed/registered in a searchable resource. 
+- **A**ccessible: the resource can be retrieved by using the unique identifier by means that are open, free and universally implementable.
+- **I**nteroperable: the resource uses formal, accessible, shared and broadly applicable language for knowledge representation.
+- **R**eusable: the resource is released with a clear license, detailed metadata on provenance and meets domain-relevant community standards.
 
 ### Best practices for code and data
 
