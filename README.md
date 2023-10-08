@@ -9,17 +9,17 @@ In this practical, you will learn to carry out a reproducible data analysis of a
 
 ## Git and GitHub
 
-**Git** is a version control system that was initially created for software engineers to develop and collaborate on code projects. You can think of it as a system to organise your projects and that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different concurrent versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, who can work on different tasks indepdently, reducing the risk that the whole project will break. If a bug is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
+**Git** is a version control system that was created to develop and collaborate efficiently on coding projects. You can think of it as a system to organise your projects and that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, reducing the risk that the whole project will break. If a [bug](https://en.wikipedia.org/wiki/Software_bug) is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
 
-**GitHub** is a cloud platform based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to other users. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork), they can be accessed online by your teammates who can collaborate on your projects and you can make them available to the wider scientific community once you're done.   
+**GitHub** is a cloud platform based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to others. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork!), they can be accessed online by your teammates who can collaborate on your projects and you can make them available to the wider scientific community.   
 
+Many state-of-the-art, open-source software projects used in modern biological research are freely available on GitHub, for example:
 
+[AlphaFold](https://github.com/google-deepmind/alphafold) *De novo* prediction of potein tertiary and quaternary structures using artificial intelligence.
 
-[AlphaFold](https://github.com/google-deepmind/alphafold)
+[DIAMOND](https://github.com/bbuchfink/diamond) Efficient comparison of protein and translated nucleotide sequences.
 
-[DIAMOND](https://github.com/bbuchfink/diamond)
-
-[Agents.jl](https://github.com/JuliaDynamics/Agents.jl)
+[Agents.jl](https://github.com/JuliaDynamics/Agents.jl) Framework for developing Agent-based models in the Julia programming language.
 
 We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI). At a more advanced stage, you may want to learn how to use the commandline on your computer to interact with git and GitHub.
 
@@ -105,7 +105,7 @@ N(t) = \frac{ \cancel{K} N_0 e^{rt}}{\cancel{K}}
 \end{equation}
 ```
 
-Therefore, when K is much larger than N_0 and t is small, the population will grow exponentially.
+Therefore, when K is much larger than $N_0$ and $t$ is small, the population will grow exponentially.
 
 ```math
 \begin{equation}
@@ -117,7 +117,7 @@ N(t) = N_0 e^{rt}
 
 When t tends to infinity, the size of the population is equal to a constant number, the carrying capacity.
 
-To show this, we take the limit of N(t) as t -> inf
+To show this, we take the limit of $N(t)$ as $`t \to \infty`$,
 
 ```math
 \begin{equation}
