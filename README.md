@@ -4,7 +4,7 @@
 
 Reproducibility is essential for scientific progress: it allows us to grasp the reliability of our analyses, and makes our work accessible and transparent to our peers to be assessed independently. As a minimal requirement, we should be able to reproduce our own findings from the data we have collected (even if it's from a project we did years ago!). In a similar way, our peers should be able to reproduce our findings when given the data and enough information to follow the steps we took to make our inferences. As a scientist, your results will be much stronger and have broader impact if they are made accessible, transparent and reproducible.
 
-In this practical, you will learn to carry out a reproducible data analysis of a biological problem using git and GitHub.
+In this practical, you will learn to carry out a reproducible data analysis of a biological problem using git, GitHub and R.
 
 
 ## Git and GitHub
