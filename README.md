@@ -4,14 +4,14 @@
 
 Reproducibility is essential for scientific progress: it allows us to grasp the reliability of our analyses, and makes our work accessible and transparent to our peers to be assessed independently. As a minimal requirement, we should be able to reproduce our own findings from the data we have collected (even if it's from a project we did years ago!). In a similar way, our peers should be able to reproduce our findings when given the data and enough information to follow the steps we took to make our inferences. As a scientist, your results will be much stronger and have broader impact if they are made accessible, transparent and reproducible.
 
-In this practical, you will learn to carry out a reproducible data analysis of a biological problem using git, GitHub and R.
+In this practical, you will learn to carry out a reproducible data analysis of a biological problem using `git`, GitHub and R.
 
 
 ## Git and GitHub
 
 **Git** is a version control system that was created to develop code and collaborate efficiently on coding projects. You can think of it as a system to organise your projects and that works as a **time machine**, keeping snapshots of the project folders and files during its development history. It also allows you to keep different versions of the code simultaneously, and therefore it's ideal for splitting tasks amongst colleagues, reducing the risk that the whole project will break. If a [bug](https://en.wikipedia.org/wiki/Software_bug) is introduced by accident at some point during development, you can always "jump back in time" to a working version of the project, saving you lots of time and frustrations.
 
-**GitHub** is a cloud platform based on git that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to others. By hosting git projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork!), they can be accessed online by your teammates who can collaborate on your projects and you can make them available to the wider scientific community.   
+**GitHub** is a cloud platform based on `git` that allows users to store files, track changes, discuss, organise projects, work collaboratively and make their code accessible to others. By hosting `git` projects on GitHub, we can store them on a remote server (they will survive if we lose our laptop in a river during fieldwork!), they can be accessed online by your teammates who can collaborate on your projects and you can make them available to the wider scientific community.   
 
 Many state-of-the-art, open-source software projects used in modern biological research are freely available on GitHub, for example:
 
@@ -27,7 +27,7 @@ Efficient comparison of protein and translated nucleotide sequences.
 
 Framework for developing Agent-based models in the Julia programming language.
 
-We will be using the GitHub website, since it simplifies the git workflow and provides a graphical user interface (GUI). At a more advanced stage, you may want to learn how to use the commandline on your computer to interact with git and GitHub.
+We will be using the GitHub website, since it simplifies the `git` workflow and provides a graphical user interface (GUI). At a more advanced stage, you may want to learn how to use the commandline on your computer to interact with `git` and GitHub.
 
 ## The Problem
 
@@ -330,7 +330,7 @@ We will be using **Posit cloud** (https://posit.cloud), which is a cloud-based p
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/new_project.png" width="250" height="180">
 </p>
 
-- On the git tab (upper right panel), make sure you change the branch from main to dev.
+- On the `git` tab (upper right panel), make sure you change the branch from main to dev.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/git_panel_dev.png" width="500" height="150">
@@ -370,7 +370,7 @@ sink()
 git config --global user.email "<YOUR_EMAIL>"
 ```
 
-- Now, go to the **git** panel and select the files that you will be updating/adding to the GitHub repo.
+- Now, go to the `git` panel and select the files that you will be updating/adding to the GitHub repo.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commits_ready.png" width="500" height="170">
@@ -378,7 +378,7 @@ git config --global user.email "<YOUR_EMAIL>"
 
 - Click on **Commit** and follow the instructions (you will be able to add an optional commit message).
 
-- After the commit has been processed you should see the message **Your branch is ahead of `origin/dev` by 1 commit** in the **git** panel.
+- After the commit has been processed you should see the message **Your branch is ahead of `origin/dev` by 1 commit** in the `git` panel.
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commit_ahead.png" width="500" height="120">
@@ -400,7 +400,7 @@ The commit has staged the changes in the current Posit cloud project. To make th
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/personal_token.png" width="600" height="220">
 </p>
 
-- Go back to the Posit cloud project, and click **Push** on the **git** tab.
+- Go back to the Posit cloud project, and click **Push** on the `git` tab.
 
 - Use your GitHub credentials, and **when asked for the password enter your GitHub token**.
 
@@ -442,7 +442,7 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 - **Add**: process of selecting a file for inclusion in the revision history. 
 - **Commit**: commits refer to changes in the repository files that have been recorded as part of its history. You can think of it as a snapshot of the repository at a given time.
 - **Checkout**: checkouts allow you to switch between different versions of the repo. You can access a previous version of a file, commit or jump to a different branch.
-- **Clone**: by cloning a repository with git you create an entire copy of that repository on your machine, including all files, commits and branches.
+- **Clone**: by cloning a repository with `git` you create an entire copy of that repository on your machine, including all files, commits and branches.
 - **Pull**: you can pull the contents of the remote repository to update your cloned repo to the most recent version.
 - **Push**: pushing allows you to update the remote repo with your local commits. However, it will only push commits from the current branch you have checked out.
 - **Branch**: branching is a useful option when collaborating on code with others. It lets you work on an isolated copy of the repo, which you can then safely experiment with: any changes will not affect the `main` branch of the project.
@@ -484,9 +484,9 @@ Wilkinson MD, et al. (2016). [The FAIR guiding principles for scientific data ma
 
 Sandve GK, et al. (2013). [Ten simple rules for reproducible computational research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285). *PLoS Computational Biology 9(10)*: 1003285.
 
-[GitHub Skills](https://skills.github.com/)
+[GitHub Skills](https://skills.github.com/) A collection of free courses to learn `git` and Github.
 
-[Software Carpentry](https://software-carpentry.org/lessons/)
+[Software Carpentry](https://software-carpentry.org/lessons/) A freely available catalgoue of courses for researchers to gain computing skills. It includes a lesson on version control with `git`.
 
 
 
