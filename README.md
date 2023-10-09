@@ -462,9 +462,9 @@ The FAIR principles are a set of guidelines proposed at the *Jointly Designing a
 FAIR is an acronym for **F**indable, **A**ccessible, **I**nteroperable and **R**eusable:
 
 - **F**indable: the object has a unique and persistent identifier (DOI/URL), it is described with rich metadata and it is indexed/registered in a searchable resource. 
-- **A**ccessible: the resource can be retrieved by using the unique identifier by means that are open, free and universally implementable.
-- **I**nteroperable: the resource uses formal, accessible, shared and broadly applicable language for knowledge representation.
-- **R**eusable: the resource is released with a clear license, detailed metadata on provenance and meets domain-relevant community standards.
+- **A**ccessible: the object can be retrieved by using the unique identifier by means that are open, free and universally implementable.
+- **I**nteroperable: the object uses formal, accessible, shared and broadly applicable language for knowledge representation.
+- **R**eusable: the object is released with a clear license, detailed metadata on provenance and meets domain-relevant community standards.
 
 ### Best practices for code and data
 
