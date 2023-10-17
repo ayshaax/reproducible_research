@@ -33,11 +33,11 @@ We will be using the GitHub website, since it simplifies the `git` workflow and 
 
 You are given a test tube with 900 $`\mu`$l of growth media, and an isolate of the bacterium *Escherichia coli* suspended in 100 $`\mu`$l of the same media (total volume of 1 ml).
 
-The bacteria will start multiplying at a fast rate since there are plenty of resources available in the test tube. This may continue for a while until resources start to become scarce. The growth rate will start to decrease, and after some time, the population size remain constant after reaching its maximum capacity in the test tube.
+The bacteria will start multiplying at a fast rate since there are plenty of resources available in the test tube. This may continue for a while until resources start to become scarce. The growth rate will start to decrease, and after some time, the population size will remain constant after reaching its maximum capacity in the test tube.
 
 You are interested in estimating the initial population size of your bacteria, rate of growth and carrying capacity from experimental data. You also want to make sure that your analysis is reproducible and the data is available for your colleagues, for them to be able to replicate your findings.
 
-* **Q1.** How can we model population growth in this system and make our analysis reproducible?*
+> **Q1.** *How can we model population growth in this system and make our analysis reproducible?*
 
 ## The Model
 
@@ -45,7 +45,7 @@ We can describe logistic growth using a differential equation:
 
 ```math
 \begin{equation}
-N'(t) = N r (1 - \frac{N}{K})
+\frac{dN}{dt} = N r (1 - \frac{N}{K})
 \end{equation}
 ```
 
@@ -53,7 +53,7 @@ This expression represents the rate of change of the population size as a functi
 
 &nbsp; 
 
-* **Q2.** *What is the rate of change in the size of the population when N << K? and when N = K? how can we interpret this biologically?*
+> **Q2.** *What is the rate of change in the size of the population when N << K? and when N = K? how can we interpret this biologically?*
 
 &nbsp; 
 
@@ -79,7 +79,7 @@ We can plot the solution to get a more intuitive idea of its behaviour (Figure 1
 
 &nbsp; 
 
-* **Q3.** *Looking at the figure, what is the carrying capacity (K) in this example? And the initial population size?*
+> **Q3.** *Looking at the figure, what is the carrying capacity (K) in this example? And the initial population size?*
 
 &nbsp; 
 
@@ -87,7 +87,7 @@ We can plot the solution to get a more intuitive idea of its behaviour (Figure 1
 
 If we assume that $` K \gg N_0 `$ and $`t`$ is small, we can approximate the behaviour of the solution at the initial time points.
 
-First, in the denominator, $`K`$ will dominate since $`N_0`$ and $`e^{rt}`$ will be small by comparison. So we can write $`K \thicksim K - N_0+N_0 e^{rt}`$.
+First, in the denominator, $`K`$ will dominate since $`N_0`$ and $`e^{rt}`$ will be small by comparison. Therefore, we can write $`K \thicksim K - N_0+N_0 e^{rt}`$.
 
 ```math
 \begin{equation}
@@ -209,7 +209,7 @@ OSF is a free online platform that allows researchers to collaborate on projects
 
 - Read and follow the instructions described on the Wiki.
 
-* **Q4.** *When was the data uploaded to OSF?*
+> **Q4.** *When was the data uploaded to OSF?*
 
 There are a few additional free platforms that you can check out for your own work, including **Zenodo** (https://zenodo.org/) and **figshare** (https://figshare.com/).
 
@@ -267,7 +267,7 @@ In this way, we will only update the `main` branch once we are confident with ou
 
 Now that we are working on `dev`, we can make changes being confident that these will not affect the `main` branch.
 
-* **Q5.** *Why do you think it would be useful to have separate* `main` *and* `dev` *branches?*
+> **Q5.** *Why do you think it would be useful to have separate* `main` *and* `dev` *branches?*
 
 ### 5. Add a license and a README.md file
 
@@ -285,7 +285,7 @@ Let's start with the license.
 
 - An option will appear to **Choose a license template**, click on it and select a license.
 
-* **Q6.** *Which licenses would be suitable to enable reproducibility of your project?*
+> **Q6.** *Which licenses would be suitable to enable reproducibility of your project?*
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/add_license.png" width="390" height="120">
@@ -364,7 +364,7 @@ sessionInfo()
 sink()
 ```
 
-* **Q7.** *Why do we need to keep a record of the package versions used?*
+> **Q7.** *Why do we need to keep a record of the package versions used?*
 
 - We will need to update the email to make the commits into your repository. Open the **Terminal** tab, and type (replace <YOUR_EMAIL> with the email you signed up with on GitHub):
 
@@ -406,7 +406,7 @@ The commit has staged the changes in the current Posit cloud project. To make th
 
 - Use your GitHub credentials, and **when asked for the password enter your GitHub token**.
 
-* **Q8.** *What is the importance of having authentication in place for this step?*
+> **Q8.** *What is the importance of having authentication in place for this step?*
 
 ### 9. Merge the final commits to main
 
