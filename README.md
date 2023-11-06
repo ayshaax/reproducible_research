@@ -484,6 +484,8 @@ Alston JM, & Rick JA. (2021).[ A beginner's guide to conducting reproducible res
 
 Cooper N, & Hsing PY. (Eds.). (2017). [A guide to reproducible code in ecology and evolution](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf). British Ecological Society. London.
 
+Blischak JD, Davenport ER & Wilson G. (2016). [A quick introduction to version control with git and GitHub](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668). *PLoS Computational Biology 12(1)*: e1004668.
+
 Wilkinson MD, et al. (2016). [The FAIR guiding principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). *Scientific Data 3*: 160018.
 
 Sandve GK, et al. (2013). [Ten simple rules for reproducible computational research](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285). *PLoS Computational Biology 9(10)*: 1003285.
