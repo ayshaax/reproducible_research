@@ -69,7 +69,7 @@ We can plot the solution to get a more intuitive idea of its behaviour (Figure 1
 
 &nbsp; 
 
-![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/images/logistic_growth.png)
+![Logistic model](https://github.com/josegabrielnb/reproducible_research/blob/main/images/logistic_growth(2).png)
 
 **Figure 1. Graphical representation of the logistic model.**
 
