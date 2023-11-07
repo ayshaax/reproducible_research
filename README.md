@@ -167,7 +167,7 @@ y = b + mx
 \end{equation}
 ```
 
-To estimate $`N_0`$ and $`r`$, we can restrict ourselves to a region that shows exponential growth (remember $` K \gg N_0 `$ and $`t`$ is small).
+Where $`b`$ is the intercept and $`m`$ is the slope of the line. To estimate $`N_0`$ and $`r`$, we can restrict ourselves to a region that shows exponential growth (remember $` K \gg N_0 `$ and $`t`$ is small).
 
 ```math
 \begin{equation}
@@ -183,13 +183,17 @@ ln(N) = ln(N_0) + rt \cancel{ln(e)}
 
 The linear approximation when $` K \gg N_0 `$ and $`t`$ is small would be:
 
+**Regression equation 1**
+
 ```math
 \begin{equation}
 ln(N) = ln(N_0) + rt
 \end{equation}
 ```
 
-On the other hand, when $`t`$ is large and the population size remains constant we can use the following approximation :
+On the other hand, when $`t`$ is large and the population size remains constant we can use the following approximation (final equation from Observation #1):
+
+**Regression equation 2**
 
 ```math
 \begin{equation}
@@ -297,7 +301,7 @@ Let's start with the license.
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/commit_changes.png" width="250" height="150">
 </p>
 
-- Create a README file following the steps outlined above, but instead name the file **README.md**. 
+- Create a README file following the steps outlined above, but instead name the file **README.md** (note you will not be given a template for this step). 
 
 <p align="center">
 <img src="https://github.com/josegabrielnb/reproducible_research/blob/main/images/readme.png" width="500" height="150">
@@ -434,6 +438,10 @@ You can now delete the `dev` branch if you do not wish to continue working on it
 
 **Congratulations!** Your repository with a reproducible analysis of logistic growth data is complete. You can add some final comments to the README.md file for any future users who come across your repo.
 
+**Changing the accessibility**
+
+Although your fork should have been made public, you can control accessibility to a repo you create by going to the **Danger Zone**.
+
 - To make your repo public, go to the **Settings** tab and scroll down to the **Danger Zone**.
 
 - Click on **Change visibility** and then **Change to public**. Now your repository will be accessible online.  
@@ -498,4 +506,4 @@ Sandve GK, et al. (2013). [Ten simple rules for reproducible computational resea
 
 ## Acknowledgements
 
-I would like to thank Alex Zarebski, Roberto Salguero-Gomez, Lydia France, Juan Antonio Balbuena and Juan Ignacio Lucas for their guidance and feedback while preparing this lesson.
+I would like to thank Alex Zarebski, Sumali Bajaj, Joseph (Lok) Tsui, Roberto Salguero-Gomez, Lydia France, Juan Antonio Balbuena and Juan Ignacio Lucas for their guidance and feedback while preparing this lesson.
